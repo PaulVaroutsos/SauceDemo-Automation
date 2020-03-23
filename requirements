@@ -1,0 +1,25 @@
+#!/bin/bash
+#########################################################################################
+# This is the script to install all requirements needed for this framework.
+# To run this script:
+#   ./requirements
+#
+# Components:
+#  selenium          - Suite of tools for automating browsers.
+#  pytest            - Python testing framework.
+#  webdriver-manager - A tool to automate the installation of webdrivers. Install the
+#                       webdriver-manager so that we don't have to keep webdriver files
+#                       within the project. Webdrivers are created using webdriver-manager in
+#                       conftest.py
+#  pytest-html       - A pytest plugin for generating HTML reports. Just add --html=./log/report.html
+#                       as an option to pytest.
+#  pytest-parallel   - A pytest plugin for parallel and concurrent testing.
+#  pytest-xdist      - Extends pytest with some unique test execution modes.
+#########################################################################################
+
+pip install selenium
+pip install pytest
+pip install webdriver-manager
+pip install pytest-html
+pip install pytest-parallel
+pip install pytest-xdist
