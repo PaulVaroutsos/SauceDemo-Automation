@@ -88,7 +88,6 @@ def test_checkout_all_items(driver, browser, mode, device, username, password):
 )
 @pytest.mark.checkout
 @pytest.mark.full_checkout
-@pytest.mark.testme
 def test_checkout_one_item(driver, browser, mode, device, username, password):
     """Test the checkout process with one item."""
     login_page = LoginPage(driver)
