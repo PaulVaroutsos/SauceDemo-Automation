@@ -30,6 +30,7 @@ using the page object model. i.e. Something that isn't just searching google.com
 - Examples using the Page Object Model.
 - How to run multiple tests simultaneously.
 - How to include test frameworks like Pytest.
+
 This example can be used as a starting point for beginners of Selenium to play around and experiment with. It utilizes SauceLab's simple and easy website so you don't have to worry about overly complex test cases.
 
 **Why saucedemo.com?**
